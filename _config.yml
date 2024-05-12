@@ -100,6 +100,16 @@ gitment_oauth:
   client_id: ''           #client ID
   client_secret: ''       #client secret
 
+#7、配置Valine
+valine:
+ enable: true #是否启用valine
+ appid: 'LSV1WdB1OuM9Nbv4fcnQqflJ-gzGzoHsz' #Leancloud应用的appId
+ appkey: 'KNLtqt7yPd32qubY7u2xCa7w' #Leancloud应用的appKey
+ verify: false #验证码，verify和notify这两个最好就别动了
+ notify: false #评论回复提醒
+ avatar: mm #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
+ placeholder: Just go go #评论框占位符
+ 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
